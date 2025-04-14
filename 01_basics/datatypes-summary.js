@@ -33,3 +33,27 @@
   }
   console.log(typeof outsideTemp);
 
+  //***************************+++++++++++
+
+  //Stack (primitive) and Heap (Non primitive)
+  // stack = call by value
+  // Heap = call by reference
+   let myName = "Aditya";
+   let anotherName = myName
+    anotherName ="Ronaldo";
+
+    console.log(myName);
+    console.log(anotherName);
+
+
+   let userOne = {
+       email:"aditya@gmail.com"
+       upi: "user@ybl"
+
+   }
+   let userTwo = userOne
+   
+   userTwo.email = "aditya@gmail.com"
+
+   console.log(userOne.email);
+   console.log(userTwo.email);
