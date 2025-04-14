@@ -46,11 +46,11 @@
     console.log(anotherName);
 
 
-   let userOne = {
-       email:"aditya@gmail.com"
-       upi: "user@ybl"
+   //let userOne = {
+       //email:"aditya@gmail.com"
+       //upi: "user@ybl"
 
-   }
+   //}
    let userTwo = userOne
    
    userTwo.email = "aditya@gmail.com"
